@@ -2,4 +2,4 @@
 
 ---
 
-## ![roadmap](https://github.com/Jaycelab/Path/blob/main/rock-paper-scissors/complete.png)
+## ![roadmap](https://github.com/Jaycelab/JS-Mini-Projects/blob/main/rock-paper-scissors/complete.png)
