@@ -12,8 +12,8 @@ body {
 
 .container {
   display: flex;
-  height: 45vh;
-  line-height: 1.5;
+  height: 100%;
+  line-height: 2.3;
   font-size: 1.5rem;
   flex-direction: column;
   align-items: center;
@@ -21,22 +21,29 @@ body {
 }
 
 .button-container {
-  gap: 18px;
+  gap: 20px;
   display: flex;
   height: 100px;
+
+  margin: 50px;
+  align-items: center;
   justify-content: center;
 }
 h1 {
-  margin-bottom: 20px;
+  margin: 20px;
 }
 h2 {
   opacity: 80%;
 }
 
+#result {
+transform: rotateX('angle');
+}
+
 button {
   background-color: rgb(94, 93, 93);
   border-radius: 15%;
-  padding: 0 25px;
+  padding: 10px;
 
-  font-size: 2.6rem;
+  font-size: 4.2rem;
 }

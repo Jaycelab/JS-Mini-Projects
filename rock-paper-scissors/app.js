@@ -44,13 +44,16 @@ function gameResult() {
     resultTarget = "Computer Wins!!!";
   }
   if (computerTarget === "paper" && playerTarget === "scissors") {
-    resultTarget = "Computer Wins!!!";
+    resultTarget = "You Win!!!";
   }
   if (computerTarget === "scissors" && playerTarget === "rock") {
     resultTarget = "You Win!!!";
   }
   if (computerTarget === "scissors" && playerTarget === "paper") {
     resultTarget = "Computer Wins!!!";
+  }
+  if (computerTarget === "paper" && playerTarget === "rock") {
+    resultTarget = "You Lose!!!";
   }
   result.innerHTML = resultTarget;
 }
